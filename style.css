@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    background-color: brown;
+    color: bisque;
+    padding: 30px;
+    font-size: 50px;
+}
+
+body{
+    border: none;
+    background-color: rgb(26, 25, 25);
+}
+
+.txtfilm{
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    margin: 0;
+    padding: 100px;
+    font-size: 30px;
+}
+
+button {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-duration: 0.9s;
+}
+
+button:hover {
+    background-color: #555555;
+    color: white;
+}
