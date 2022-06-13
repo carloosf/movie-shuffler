@@ -1,9 +1,27 @@
-function watchmovies(){ 
-    
+function exibirMensagem(){
+    const random = (min, max) => Math.floor(Math.random() * (max - min)+ min);
+    var result = (lista[random(0, lista.length)])
+    filme.innerHTML = result.toUpperCase()
+    click++
+    listwatch[click].innerHTML = click
 }
-function exibirMensagem()
-{
-    const lista = ['orgulho e preconceito',
+
+const listwatch = [document.getElementById('Filme1'), 
+document.getElementById('Filme2'), 
+document.getElementById('Filme3'),
+document.getElementById('Filme4'),
+document.getElementById('Filme5'),
+document.getElementById('Filme6'),
+document.getElementById('Filme7'),
+document.getElementById('Filme8'),
+document.getElementById('Filme9'),
+document.getElementById('Filme10'),
+document.getElementById('Filme11'),
+document.getElementById('Filme12'),
+document.getElementById('Filme13'),
+document.getElementById('Filme14'),
+document.getElementById('Filme15'),]
+const lista = ['orgulho e preconceito',
 'silencio dos inocentes',
 'orgulho e preconteito e zumbi',
 'marley e eu',
@@ -33,11 +51,7 @@ function exibirMensagem()
 'batman cavalheiro das trevas',
 'O poderoso chefão',
 'joker'];
-    const random = (min, max) => Math.floor(Math.random() * (max - min)+ min);
-    var result = (lista[random(0, lista.length)])
-    filme.innerHTML = result.toUpperCase()
-}
-
+const click = 0
 var filme = document.getElementById('txtfilm');
 var btn = document.getElementById("button");
 btn.addEventListener("click", exibirMensagem);
