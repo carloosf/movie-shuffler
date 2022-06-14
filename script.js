@@ -5,17 +5,8 @@ function exibirMensagem(){
     listwatch[29].innerHTML = result.toUpperCase()
     var adicionar = listwatch.unshift(result)
     var removed = lista.indexOf(result)
-    lista.splice(removed, 1)
-    click++
-    if (click > 1){
-        
-    }
-
-    
+    lista.splice(removed, 1)   
 }
-    
-
-
 const listwatch = [document.getElementById('Filme1'), 
 document.getElementById('Filme2'), 
 document.getElementById('Filme3'),
@@ -80,7 +71,6 @@ const lista = ['orgulho e preconceito',
 'O poderoso chefão',
 'joker'];
 
-const click = 0
 var filme = document.getElementById('txtfilm');
 var btn = document.getElementById("button");
 btn.addEventListener("click", exibirMensagem);

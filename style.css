@@ -7,34 +7,39 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: #131047;
+    background-color: #0e0a0d;
+    border-bottom: 2px solid #555555;
     color: rgb(255, 255, 255);
-    padding: 10px;
+    padding: 25px;
     font-size: 25px;
 }
 
 html,
 body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-image: url(/img/Classic-Movies-Wallpapers-56+-images-.jpg);
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-color: #19121b;
     text-align: center;
 }
 
 .borda{
-    border: 3px inset rgb(231, 52, 52);
+    border: 2px outset whitesmoke;
     display: inline-block;
     text-align: center;
     margin-top: 50px;
-    width: 400px;
+    width: 450px;
     height: 150px;
-    background-color: rgb(48, 47, 47);
+    background-color: #060505;
     margin-bottom: 20px;
 }
-
+footer{
+    background-color: #0e0a0d;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 20px;
+}
 .txt{
-    padding-top: 13%;
+    padding-top: 14%;
     width:auto;
     display: table;
     margin: 0 auto;
@@ -48,7 +53,7 @@ body {
 }
 
 .form{
-    color: #cfa1a1;
+    color: #99FFF1;
     font-size: medium;
     border: 1px solid rgb(145, 144, 144);
     border-radius: 2%;
@@ -57,7 +62,7 @@ body {
     margin: auto;
     padding: 10px;
     display: block;
-    background-color: #291d1d;
+    background-color: #060505;
     text-align: center;
 }
 
@@ -65,13 +70,14 @@ body {
     width: 80%;
 }
 .list:hover{
-    background-color: #e7e7e7;
-    color: #0e0a0a;
+    background-color: #2B1B28;
+    color: white;
     cursor: pointer;
 }
 
 button {
-    background-color: rgb(247, 242, 242);
+    background-color: #060505;
+    border-radius: 5%;
     color: rgb(0, 0, 0);
     border: 2px solid #ffffff;
     margin: auto;
@@ -83,7 +89,7 @@ button {
 }
 
 button:hover {
-    background-color: #555555;
+    background-color: #2B1B28;
     color: white;
 }
 
