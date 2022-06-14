@@ -1,6 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    color: #ffffff;
 }
 header{
     display: flex;
@@ -14,43 +15,67 @@ header{
 
 html,
 body {
-  width: 100%;
-  min-height: 100vh;
-  background-color: rgb(255, 255, 255);
-  color: #ffffff;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(/img/Classic-Movies-Wallpapers-56+-images-.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align: center;
 }
 
+.borda{
+    border: 3px inset rgb(231, 52, 52);
+    display: inline-block;
+    text-align: center;
+    margin-top: 50px;
+    width: 400px;
+    height: 150px;
+    background-color: rgb(48, 47, 47);
+    margin-bottom: 20px;
+}
 
 .txt{
-    color: #131047;
-    display: block;
-    text-align: center;
-    margin: 0;
-    margin-top: 100px;
-    margin-bottom: 50px;
-    font-size: 200%;
+    padding-top: 13%;
+    width:auto;
+    display: table;
+    margin: 0 auto;
+    font-size: 140%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
 }
 
 .form{
-    color: #131047;
+    color: #cfa1a1;
     font-size: medium;
-    border: 1px solid black;
+    border: 1px solid rgb(145, 144, 144);
     border-radius: 2%;
     height: auto;
-    width: 50%;
+    width: 30%;
     margin: auto;
     padding: 10px;
     display: block;
+    background-color: #291d1d;
+    text-align: center;
+}
+
+.list{
+    width: 80%;
+}
+.list:hover{
+    background-color: #e7e7e7;
+    color: #0e0a0a;
+    cursor: pointer;
 }
 
 button {
-    background-color: white;
+    background-color: rgb(247, 242, 242);
     color: rgb(0, 0, 0);
-    border: 2px solid #555555;
+    border: 2px solid #ffffff;
     margin: auto;
-    width: 90px;
+    width: 150px;
     height: 40px;
     display: block;
     transition-duration: 0.9s;
@@ -61,9 +86,4 @@ button:hover {
     background-color: #555555;
     color: white;
 }
-.listagem{
-    color: #131047;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
+
