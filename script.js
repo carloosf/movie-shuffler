@@ -2,9 +2,10 @@ function exibirMensagem(){
     const random = (min, max) => Math.floor(Math.random() * (max - min)+ min);
     var result = (lista[random(0, lista.length)])
     filme.innerHTML = result.toUpperCase()
-    click++
-    listwatch[click].innerHTML = click
+    listwatch[14].innerHTML = result
+    var adicionar = listwatch.unshift(result)
 }
+    
 
 const listwatch = [document.getElementById('Filme1'), 
 document.getElementById('Filme2'), 
@@ -21,6 +22,7 @@ document.getElementById('Filme12'),
 document.getElementById('Filme13'),
 document.getElementById('Filme14'),
 document.getElementById('Filme15'),]
+
 const lista = ['orgulho e preconceito',
 'silencio dos inocentes',
 'orgulho e preconteito e zumbi',
