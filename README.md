@@ -1,5 +1,32 @@
-https://dancing-kringle-6d97bd.netlify.app/
+# [MovieShuffler](https://dancing-kringle-6d97bd.netlify.app/)
 
-# movie-shuffler
+## :page_facing_up: Sobre o Projeto
+- Este projeto trata-se de uma landing page desenvolvida no Visual Studio Code com a finalidade de pôr em prática meus conhecimentos em JS.
+- Criado em 14/06/2022
+---
 
-Este projeto tem a proposta de parar com as duvidas de em assistir filmes, voce adicionar os filmes que deseja assistir por volta de 1 mes e faz o shuffle, assim irá aparecer um filme.
+## :framed_picture: Imagens do Projeto
+
+![imagem-projeto-final](Screen-main.PNG)
+
+---
+## :man_technologist:  Autor
+
+<table class="author">
+  <tr>
+    <td align="center">
+      <a href="https://www.linkedin.com/in/ccarlossilv/">
+        <img src="https://avatars.githubusercontent.com/carloosf" 
+        width="100px;" alt="Carlos Silva"/>
+        <br/>
+        <sub>
+          <b>Carlos Silva</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>   
+   Linkedin:
+   https://www.linkedin.com/in/ccarlossilv/
+   
+   E-mail: contato.carlossilvaf@gmail.com
