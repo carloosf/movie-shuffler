@@ -1,4 +1,4 @@
-# [MovieShuffler](https://dancing-kringle-6d97bd.netlify.app/)
+# MovieShuffler
 
 ## :page_facing_up: Sobre o Projeto
 - Este projeto trata-se de uma landing page desenvolvida no Visual Studio Code com a finalidade de pôr em prática meus conhecimentos em JS.
@@ -15,7 +15,7 @@
 <table class="author">
   <tr>
     <td align="center">
-      <a href="https://www.linkedin.com/in/ccarlossilv/">
+      <a href="https://www.linkedin.com/in/carloosf/">
         <img src="https://avatars.githubusercontent.com/carloosf" 
         width="100px;" alt="Carlos Silva"/>
         <br/>
